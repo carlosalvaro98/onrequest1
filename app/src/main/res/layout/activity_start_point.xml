@@ -9,8 +9,8 @@
     tools:context=".StartPoint">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="395dp"
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/rest"
@@ -64,13 +64,18 @@
             android:id="@+id/text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="76dp"
             android:text="0 %"
             android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="595dp" />
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:layout_constraintVertical_bias="0.881" />
 
         <TextView
+            android:id="@+id/textView13"
             android:layout_width="240dp"
             android:layout_height="54dp"
             android:text="Swiftly express, On Request sucess!"
@@ -82,7 +87,18 @@
             app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.646" />
+            app:layout_constraintVertical_bias="0.565" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="77dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="28dp"
+            app:layout_constraintEnd_toEndOf="@+id/textView13"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="@+id/textView13"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:srcCompat="@drawable/hamburger_soda" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </RelativeLayout>
