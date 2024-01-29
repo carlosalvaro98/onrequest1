@@ -67,7 +67,7 @@ public class TablesActivity extends AppCompatActivity {
         updateProfileView();
 
         this.tablesAdapter = new TablesAdapter(this);
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+            LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, true);
         recyclerView.setAdapter(this.tablesAdapter);
         recyclerView.setLayoutManager(layoutManager);
         loadTables();

@@ -23,7 +23,7 @@ public class AllMenuItems extends AppCompatActivity {
     private RecyclerView recyclerView;
     private ApiAdapter apiAdapter;
     private ApiService apiService;
-    private List<MenuItemAPI> menuItemAPIList = new ArrayList<>(); // Inicialize a lista aqui
+    private List<MenuItemAPI> menuItemAPIList = new ArrayList<>(); // Inicializa a lista aqui
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
