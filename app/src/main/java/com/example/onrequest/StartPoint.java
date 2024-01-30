@@ -43,7 +43,7 @@ public class StartPoint extends AppCompatActivity {
 
     public void progressAnimation() {
         DeliveryAnimation deliveryAnimation = new DeliveryAnimation(this, progressBar, textView, 0f, 100f);
-        deliveryAnimation.setDuration(8000);
+        deliveryAnimation.setDuration(6000);
         progressBar.setAnimation(deliveryAnimation);
     }
 

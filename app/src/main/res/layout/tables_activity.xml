@@ -47,8 +47,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="415dp"
-        android:layout_height="264dp"
+        android:layout_width="416dp"
+        android:layout_height="285dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="4dp"
@@ -63,6 +63,7 @@
             android:id="@+id/RecyclerViewT"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:scrollbars="vertical"
             tools:layout_conversion_absoluteHeight="287dp"
             tools:layout_conversion_absoluteWidth="415dp"
             tools:layout_editor_absoluteX="-1dp"
@@ -116,8 +117,8 @@
 
     <Button
         android:id="@+id/button_api"
-        android:layout_width="191dp"
-        android:layout_height="52dp"
+        android:layout_width="222dp"
+        android:layout_height="51dp"
         android:layout_marginStart="148dp"
         android:layout_marginTop="56dp"
         android:layout_marginEnd="169dp"

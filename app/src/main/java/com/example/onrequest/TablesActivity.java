@@ -139,7 +139,7 @@ public class TablesActivity extends AppCompatActivity {
                 // Verifica se tablesAdapter já foi inicializado
                 if (tablesAdapter != null) {
                     tablesAdapter.refreshList(menuTableList);
-                    LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+                    LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
                     RecyclerView recyclerView = findViewById(R.id.RecyclerViewT);
                     recyclerView.setAdapter(tablesAdapter);
                     recyclerView.setLayoutManager(layoutManager);

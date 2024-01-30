@@ -38,17 +38,6 @@
             app:layout_constraintVertical_bias="1.0"
             app:srcCompat="@drawable/home_alt_white_regular_24" />
 
-        <ImageView
-            android:id="@+id/moving_image"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:layout_marginBottom="6dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.255"
-            app:srcCompat="@drawable/cajos"
-            tools:layout_editor_absoluteX="154dp" />
-
         <ProgressBar
             android:id="@+id/progress_bar"
             style="@style/Widget.AppCompat.ProgressBar.Horizontal"
@@ -99,6 +88,16 @@
             app:layout_constraintStart_toStartOf="@+id/textView13"
             app:layout_constraintTop_toBottomOf="@+id/textView13"
             app:srcCompat="@drawable/hamburger_soda" />
+
+        <ImageView
+            android:id="@+id/moving_image"
+            android:layout_width="57dp"
+            android:layout_height="63dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.272"
+            app:srcCompat="@drawable/moped"
+            tools:layout_editor_absoluteX="161dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </RelativeLayout>
