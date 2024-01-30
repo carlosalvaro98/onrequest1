@@ -77,7 +77,7 @@ public class TablesActivity extends AppCompatActivity {
         });
         //MVVM
         menuTableViewModel = new ViewModelProvider(this).get(MenuTableViewModel.class);
-        //TODO 
+        //TODO
         //setContentView(R.layout.tables_activity);
 
         //ImageView table1 = findViewById(R.id.table1);
