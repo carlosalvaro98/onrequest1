@@ -77,7 +77,7 @@ public class TablesActivity extends AppCompatActivity {
         });
         //MVVM
         menuTableViewModel = new ViewModelProvider(this).get(MenuTableViewModel.class);
-        //TODO ACABAR DE IMPLEMENTAR O MVVM
+        //TODO 
         //setContentView(R.layout.tables_activity);
 
         //ImageView table1 = findViewById(R.id.table1);
@@ -161,7 +161,7 @@ public class TablesActivity extends AppCompatActivity {
         TextView userName = findViewById(R.id.textViewUserName);
 
         if (userProfile != null) {
-            userName.setText("Olá! " + userProfile.getName());
+            userName.setText("Olá! " + userProfile.getName() + imageViewUserPhoto);
         } else {
             userName.setText("Olá!");
         }
