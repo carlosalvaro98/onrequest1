@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginTop="148dp"
-        android:layout_marginBottom="204dp"
+        android:layout_marginBottom="190dp"
         android:text="Nome_Item"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -72,7 +72,7 @@
         android:layout_marginStart="136dp"
         android:layout_marginTop="396dp"
         android:layout_marginEnd="65dp"
-        android:layout_marginBottom="204dp"
+        android:layout_marginBottom="190dp"
         android:text="Preco_Item"
         android:textColor="#D7B150"
         android:textSize="14sp"
@@ -95,5 +95,13 @@
         app:layout_constraintEnd_toEndOf="@+id/ItemPrice"
         app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="@+id/ItemPrice" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="360dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

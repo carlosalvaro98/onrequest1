@@ -26,4 +26,7 @@
     <string name="id2">ID</string>
     <string name="create">Create</string>
     <string name="total">Total:</string>
+    <string name="Debit">Debit Card</string>
+    <string name="cash">Cash</string>
+    <string name="wallet">E-Wallet</string>
 </resources>
