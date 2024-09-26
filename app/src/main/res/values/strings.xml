@@ -29,4 +29,5 @@
     <string name="Debit">Debit Card</string>
     <string name="cash">Cash</string>
     <string name="wallet">E-Wallet</string>
+    <string name="Sign">Sing Up</string>
 </resources>

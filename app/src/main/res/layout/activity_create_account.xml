@@ -91,6 +91,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+
     <TextView
         android:id="@+id/usertag"
         android:layout_width="43dp"
@@ -103,12 +104,11 @@
         app:layout_constraintStart_toStartOf="@+id/passwordtag"
         app:layout_constraintTop_toBottomOf="@+id/passwordtag" />
 
-
     <TextView
         android:id="@+id/passwordtag"
         android:layout_width="43dp"
         android:layout_height="37dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/radius_custom"
         android:translationZ="6dp"
         app:layout_constraintEnd_toEndOf="@+id/emailtag"
@@ -120,7 +120,7 @@
         android:id="@+id/emailtag"
         android:layout_width="43dp"
         android:layout_height="37dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/radius_custom"
         android:translationZ="6dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView9"
@@ -160,7 +160,7 @@
         android:src="@drawable/user_check_alt_1_svgrepo_com"
         android:translationZ="6dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.325"
+        app:layout_constraintHorizontal_bias="0.314"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView14" />
 
