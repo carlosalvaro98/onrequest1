@@ -4,5 +4,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="yellow">#D7B150</color>
     <color name="grayopacity">#64625E</color>
+    <color name="midgray">#E0E0E0</color>
 
 </resources>
