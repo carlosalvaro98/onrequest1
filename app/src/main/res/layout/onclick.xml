@@ -75,7 +75,7 @@
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="0.793" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/descTextView"
@@ -101,14 +101,14 @@
         android:layout_height="48dp"
         android:layout_marginStart="150dp"
         android:layout_marginEnd="150dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="56dp"
         android:backgroundTint="#757370"
         android:text="Add to cart"
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -127,7 +127,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.909" />
 
     <TextView
         android:id="@+id/PriceOG"
@@ -146,9 +147,11 @@
         android:id="@+id/button4"
         android:layout_width="77dp"
         android:layout_height="40dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/radios_grey"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="360dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/button8"
