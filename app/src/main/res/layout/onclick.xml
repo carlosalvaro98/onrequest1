@@ -8,6 +8,22 @@
     android:background="@drawable/bg_yellow">
 
     <ImageView
+        android:id="@+id/button10"
+        android:layout_width="88dp"
+        android:layout_height="79dp"
+        android:background="@drawable/radios_grey"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="510dp" />
+
+    <ImageView
+        android:id="@+id/button9"
+        android:layout_width="88dp"
+        android:layout_height="79dp"
+        android:background="@drawable/radios_grey"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="510dp" />
+
+    <ImageView
         android:id="@+id/imageView7"
         android:layout_width="185dp"
         android:layout_height="172dp"
@@ -32,7 +48,7 @@
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.793" />
 
     <TextView
         android:id="@+id/descTextView"
@@ -49,20 +65,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="0.691"
+        app:layout_constraintVertical_bias="0.544"
         app:layout_constraintWidth_default="wrap" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="120dp"
-        android:layout_height="54dp"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
         android:layout_marginStart="150dp"
         android:layout_marginEnd="150dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="40dp"
         android:backgroundTint="#757370"
         android:text="Add to cart"
+        android:textSize="14sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -96,12 +115,28 @@
         app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="@+id/ItemPrice" />
 
-    <Button
+    <ImageView
         android:id="@+id/button4"
         android:layout_width="77dp"
         android:layout_height="40dp"
-        android:text="Button"
+        android:background="@drawable/radios_grey"
         tools:layout_editor_absoluteX="35dp"
         tools:layout_editor_absoluteY="360dp" />
+
+    <ImageView
+        android:id="@+id/button8"
+        android:layout_width="88dp"
+        android:background="@drawable/radios_grey"
+        android:layout_height="79dp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="510dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="63dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/cheese_clipart_design_illustration_free_png"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="517dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

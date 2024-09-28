@@ -16,6 +16,14 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:context=".TablesActivity">
 
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icons8_plus"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="597dp" />
+
         <TextView
             android:id="@+id/textViewUserName3"
             android:layout_width="wrap_content"
@@ -181,7 +189,6 @@
             android:layout_width="333dp"
             android:layout_height="29dp"
             android:background="@drawable/radios_grey"
-            android:text="@string/search"
             android:textAlignment="textStart"
             android:textColor="#776F6F"
             android:textSize="16sp"
@@ -204,6 +211,30 @@
             app:srcCompat="@drawable/big_mac"
             tools:layout_editor_absoluteX="229dp"
             tools:layout_editor_absoluteY="486dp" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icons8_plus"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="597dp" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icons8_plus"
+            tools:layout_editor_absoluteX="320dp"
+            tools:layout_editor_absoluteY="597dp" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="39dp"
+            android:layout_height="32dp"
+            app:srcCompat="@drawable/car_ui_icon_search"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="92dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
