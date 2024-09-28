@@ -8,6 +8,33 @@
     android:background="@drawable/bg_yellow">
 
     <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationZ="6dp"
+        app:srcCompat="@drawable/icons8_plus"
+        tools:layout_editor_absoluteX="350dp"
+        tools:layout_editor_absoluteY="570dp" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationZ="6dp"
+        app:srcCompat="@drawable/icons8_plus"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="570dp" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/icons8_plus"
+        tools:layout_editor_absoluteX="99dp"
+        android:translationZ="6dp"
+        tools:layout_editor_absoluteY="570dp" />
+
+    <ImageView
         android:id="@+id/button10"
         android:layout_width="88dp"
         android:layout_height="79dp"
@@ -138,5 +165,21 @@
         app:srcCompat="@drawable/cheese_clipart_design_illustration_free_png"
         tools:layout_editor_absoluteX="48dp"
         tools:layout_editor_absoluteY="517dp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="80dp"
+        android:layout_height="68dp"
+        app:srcCompat="@drawable/appetizing_smoked_bacon_file_free_png"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="515dp" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="69dp"
+        android:layout_height="67dp"
+        app:srcCompat="@drawable/pngtree_tomato_fruit_slice_png_image_13149469"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="515dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
