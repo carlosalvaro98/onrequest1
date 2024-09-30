@@ -52,7 +52,7 @@ public class CreateAccount extends AppCompatActivity {
         List<User> existingUsers = userDao.getAllUsers();
         for (User user : existingUsers) {
             if (user.getUserName().equals(inputUserName)) {
-                Toast.makeText(this, "Este nome já existe", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Este username já existe", Toast.LENGTH_SHORT).show();
                 return;
             }
         }
@@ -63,7 +63,7 @@ public class CreateAccount extends AppCompatActivity {
 
         userDao.insertUser(newUser);
 
-        Toast.makeText(this, "Registro feito com sucesso", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Registo efectuado com sucesso", Toast.LENGTH_SHORT).show();
         finish();
     }
 }

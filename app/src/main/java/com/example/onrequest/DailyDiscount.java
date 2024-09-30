@@ -27,8 +27,6 @@ public class DailyDiscount {
         this.discountPercentage = discountPercentage;
         this.menuTable = menuTable;
         this.tablesAdapter = tablesAdapter;
-        //this.adapter = adapter;
-
     }
 
     public void applyDiscount() {
@@ -50,7 +48,6 @@ public class DailyDiscount {
             }
         });
     }
-
     public double calculateDiscountedPrice(double originalPrice) {
         return originalPrice - (originalPrice * discountPercentage);
     }

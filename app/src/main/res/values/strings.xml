@@ -32,4 +32,7 @@
     <string name="Sign">Sing Up</string>
     <string name="Menu">Menu!</string>
     <string name="search">Search</string>
+    <string name="items_cart">Items in Cart</string>
+    <string name="order_insrtuctions">Order Instructions</string>
+    <string name="checkout">Checkout!</string>
 </resources>

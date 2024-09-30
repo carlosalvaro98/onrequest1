@@ -79,8 +79,4 @@ public class LoginActivity extends AppCompatActivity {
         Intent forgot = new Intent(this, CreateAccount.class);
         startActivity(forgot);
     }
-
-
-    //TODO
-
 }

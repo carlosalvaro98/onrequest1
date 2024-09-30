@@ -77,8 +77,6 @@ public class MainActivity extends AppCompatActivity {
         //List<MenuItem> food = menuItemDao.getByCategory(FOOD);
         //List<MenuItem> drink = menuItemDao.getByCategory(DRINK);
 
-
-
         // criar um objeto do tipo MenuAdapter (que extende Adapter)
         //MenuAdapter adapter = new MenuAdapter(menuTable, (List<MenuItem>) itemForTable);
 
