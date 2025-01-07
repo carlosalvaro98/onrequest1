@@ -35,4 +35,5 @@
     <string name="items_cart">Items in Cart</string>
     <string name="order_insrtuctions">Order Instructions</string>
     <string name="checkout">Checkout!</string>
+    <string name="forgot">Forgot your password ?</string>
 </resources>

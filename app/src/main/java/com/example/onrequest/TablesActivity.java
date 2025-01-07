@@ -93,7 +93,7 @@ public class TablesActivity extends AppCompatActivity {
         //table4.setOnClickListener(buttonOnClick(4));
         //table5.setOnClickListener(buttonOnClick(5));
         //table6.setOnClickListener(buttonOnClick(6));
-        button_api = findViewById(R.id.button_api);
+        //button_api = findViewById(R.id.button_api);
 
         button_api.setOnClickListener(new View.OnClickListener() {
             @Override

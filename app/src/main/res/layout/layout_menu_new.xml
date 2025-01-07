@@ -166,7 +166,8 @@
             android:layout_height="70dp"
             android:background="@drawable/radios_white"
             tools:layout_editor_absoluteX="303dp"
-            tools:layout_editor_absoluteY="142dp" />
+            tools:layout_editor_absoluteY="142dp"
+            tools:ignore="MissingConstraints" />
 
         <ImageView
             android:id="@+id/button15"
